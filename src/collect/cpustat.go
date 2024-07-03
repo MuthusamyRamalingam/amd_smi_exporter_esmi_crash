@@ -39,7 +39,7 @@
 
 // Package cpustat provides an example parser for Linux CPU utilization statistics.
 package collect
-import "github.com/amd/go_amd_smi"
+import "github.com/MuthusamyRamalingam/go_amd_smi_esmi_crash"
 
 type AMDParams struct {
 	CoreEnergy [512]float64
