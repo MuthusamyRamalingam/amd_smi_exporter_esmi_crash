@@ -42,12 +42,12 @@ package collect
 import "github.com/MuthusamyRamalingam/go_amd_smi_esmi_crash"
 
 type AMDParams struct {
-	CoreEnergy [512]float64
-	SocketEnergy [2]float64
-	CoreBoost [512]float64
-	SocketPower [2]float64
-	PowerLimit [2]float64
-	ProchotStatus [2]float64
+	CoreEnergy [768]float64
+	SocketEnergy [4]float64
+	CoreBoost [768]float64
+	SocketPower [4]float64
+	PowerLimit [4]float64
+	ProchotStatus [4]float64
 	Sockets uint
 	Threads uint
 	ThreadsPerCore uint
